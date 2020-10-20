@@ -29,3 +29,4 @@ class Test_add:
         result_div = self.cal.div(a, b)
         assert result_div == c
         print("除法用例通过")
+
