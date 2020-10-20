@@ -1,0 +1,106 @@
+{
+  "uid" : "bf6f90b9630a55ad",
+  "name" : "test_add_int[0-0-0]",
+  "fullName" : "test_zuoye_1.Test_add#test_add_int",
+  "historyId" : "354d2d18824784b906bd926c7e733c0f",
+  "time" : {
+    "start" : 1603203147110,
+    "stop" : 1603203147110,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1603203147110,
+      "stop" : 1603203147110,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fb051f9ae9df3551",
+      "name" : "stdout",
+      "source" : "fb051f9ae9df3551.txt",
+      "type" : "text/plain",
+      "size" : 19
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1603203147173,
+      "stop" : 1603203147173,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_zuoye_1"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_add"
+  }, {
+    "name" : "host",
+    "value" : "LZP"
+  }, {
+    "name" : "thread",
+    "value" : "20824-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_zuoye_1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "0"
+  }, {
+    "name" : "b",
+    "value" : "0"
+  }, {
+    "name" : "c",
+    "value" : "0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bf6f90b9630a55ad.json",
+  "parameterValues" : [ "0", "0", "0" ]
+}

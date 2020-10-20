@@ -1,7 +1,6 @@
 from Cal_method.funcal import Calculator
 import pytest
 
-
 class Test_add:
 
     def setup_class(self):

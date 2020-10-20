@@ -1,0 +1,116 @@
+{
+  "uid" : "90f9b7af97dc00db",
+  "name" : "test_add_int[100000000-100000000-200000000]",
+  "fullName" : "test_zuoye_1.Test_add#test_add_int",
+  "historyId" : "836f660a4b15853c7aa11fb60a78e619",
+  "time" : {
+    "start" : 1603203506472,
+    "stop" : 1603203506472,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1603203506455,
+      "stop" : 1603203506455,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e4ea15265794d4e",
+      "name" : "stdout",
+      "source" : "e4ea15265794d4e.txt",
+      "type" : "text/plain",
+      "size" : 19
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1603203506534,
+      "stop" : 1603203506534,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_zuoye_1"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_add"
+  }, {
+    "name" : "host",
+    "value" : "LZP"
+  }, {
+    "name" : "thread",
+    "value" : "21344-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_zuoye_1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "100000000"
+  }, {
+    "name" : "b",
+    "value" : "100000000"
+  }, {
+    "name" : "c",
+    "value" : "200000000"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c069446b3f559e0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603203147126,
+        "stop" : 1603203147126,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "90f9b7af97dc00db.json",
+  "parameterValues" : [ "100000000", "100000000", "200000000" ]
+}

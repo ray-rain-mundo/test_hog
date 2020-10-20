@@ -1,5 +1,7 @@
 import pytest
 import yaml
+import sys
+sys.path.append('../')
 from Cal_method.funcal import Calculator
 
 @pytest.fixture(params=['user1', 'user2', 'user3'])
